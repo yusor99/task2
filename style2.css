@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+p {
+  line-height: 1.4;
+  color: #585858;
+}
+body{height: 1500px;}
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+header .content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .content ul {
+  list-style-type: none;
+  display: flex;
+  margin-right: -220px;
+}
+
+header .content ul li {
+  margin-left: 10px;
+}
+header .log {outline: none;
+    background-color:#E8991D ;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
+    width:100px ;
+    height:40px ;
+    overflow: hidden;
+}
+.head {
+    font-size: 25px;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    margin-top: -280px;
+  }
+  .head p {
+    color: rgb(255, 255, 255);
+  }
+   .log:hover{ background-color:rgba(224, 221, 221, 0);;
+    color:#E8991D;
+  animation: fadein 1s;
+   }
+   .y:hover {
+      background-color:rgba(224, 221, 221, 0);;
+      color: white;
+    animation: fadein 1s;
+  }
+  .w:hover{
+    color: white;
+    animation: fadein 1s;
+    background-color:#E8991D ;
+  }
+.y {outline: none;
+    background-color:#E8991D ;
+    color: white;
+    cursor: pointer;
+  border-radius: 16px;
+    width:285px ;
+    height:52px ;
+    overflow: hidden;
+}
+.head .w {outline: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    border-radius: 16px;
+    width:285px ;
+    height:52px ;
+    overflow: hidden;
+    background-color: rgba(224, 221, 221, 0);    
+}
+.home-cover img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .home-cover {
+    position: relative;
+    height: 488px;
+    overflow: hidden;
+  }
+  
+  .home-cover .overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #04040447;
+  }
+  .info{padding-top: 70px;
+ 
+   height: 300px;
+   position: relative;
+  }
+  .info h2{
+    margin-bottom: 30px;
+  }
+  .back{
+    background-color: #DEE9C2;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 15px;
+    position: absolute;
+top: 830px;
+margin-left:20px ;
+  }
+  .cards div{  width: 300px;height: 200px; 
+    background-color: white; display: grid; justify-content: center; align-items: center;
+    
+  }
+  .cards  div h5 { margin: auto; display: block;}
+  
+  .cards div img{ margin: auto; display: block;}
+  .cards div small{ margin: auto; display: block;}
